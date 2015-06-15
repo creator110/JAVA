@@ -1,1 +1,31 @@
 
+1. Wie verändert sich die Programmausführung für den Beobachter, wenn wir den
+  Wert der Konstanten
+
+    final int MILLISEKUNDEN = 10;
+
+von 10 auf 20 Millisekunden verdoppeln?
+
+
+2. Wie verändert sich die Programmausführung für den Beobachter, wenn wir den
+  Wert der Konstanten
+
+    final int MILLISEKUNDEN = 10;
+
+  von 10 auf 5 Millisekunden halbieren?
+
+3. Und wie verändert sich die Programmausführung für den Beobachter, wenn wir
+
+    screen . pause ( MILLISEKUNDEN );
+
+  durch das Voranstellen von // auskommentieren?
+
+4. Wie müssen wir das Programm Linienmuster2 verändern, damit der Startpunkt
+  der Linien von rechts nach links statt von links nach rechts und der Endpunkt von
+  links nach rechts statt von rechts nach links wandert? Das resultierende Linienmuster
+  bleibt das gleiche, lediglich die Richtung der Animation kehrt sich um.
+
+5. Wie müssen wir das Programm Linienmuster2 verändern, damit der Startpunkt
+der Linien am linken Rand von oben nach unten und der Endpunkt der Linien
+am rechten Rand von unten nach oben läuft, so dass ein liegendes Linienmuster
+entsteht?
