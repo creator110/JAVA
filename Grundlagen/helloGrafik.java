@@ -1,8 +1,17 @@
 import javax.swing.JLabel
 import javax.swing.JFrame
 public class HelloGrafik{
+	
+	// Deklaration und Initalisierung von 
+	// - globalen statischen Konstanten
+	// - globalen statischen Variablen
 
 	public static void main (String[] args){
+		
+		// Deklaration und Initialisierung von
+		// - lokalen Konstanten
+		// - lokalen Variablen
+	
 		//erzuege neues Frame
 		JFrame mainFrame = new JFrame;
 		//Breite: 800pixel, Hoehe: 600pixel
