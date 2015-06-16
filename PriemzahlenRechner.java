@@ -14,11 +14,13 @@ class Ideone
 	}
 	
 	static void printPrimes(int max){
+		//neues boolean setzen
 		boolean[] sieve = new boolean[max+1];
 		int i,j;
 		for(i=2; i<=max; i++) sieve[i] = true;
 		i=2;
-		while(i<=max){
+		while(i<=max){ //solange i kleiner oder gleich max ist
+			//die Priemzahl ausgeben
 			System.out.println(i +" "); //i ist die Priemzahl
 			for(j = i; j<= max; j=j+i)sieve[j] = false;
 			while (i <= max && !sieve[i]) i++;
